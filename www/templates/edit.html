@@ -1,0 +1,17 @@
+<ion-view view-title="{{viewTitle}}">
+    <ion-content>
+       <div>
+          <div class="item item-input">
+              <strong class="fixed">Título:&nbsp; </strong>
+              <input type="text" ng-model="nota.title">
+          </div>
+          <div class="item item-input">
+              <strong class="fixed" color="">Descripción:&nbsp; </strong>
+              <textarea type="text" ng-model="nota.description"></textarea>
+          </div>
+          <div class="padding">
+               <button class="button button-block button-positive" ng-click="save()">Guardar</button>
+           </div>
+       </div>
+    </ion-content>
+</ion-view>
